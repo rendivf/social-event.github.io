@@ -1,0 +1,40 @@
+body{
+overflow-y: scroll;
+overflow-x: hidden;
+	background-color: white;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	margin: auto;
+}
+
+#wrapper {
+
+	width: 100%;
+	margin: auto;
+}
+
+.background {
+  color: white;
+  /*background-color: #324663;*/
+
+  
+  -webkit-animation: pulse 50s infinite;
+  animation: pulse 50s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {background:#324663}
+    25% {background:#03C9A9}
+    50% {background:#F64747}
+    75% {background:#52B3D9}
+    100% {background:#324663}
+}
+
+@keyframes pulse {
+    0% {background:#324663}
+    25% {background:#03C9A9}
+    50% {background:#F64747}
+    75% {background:#52B3D9}
+    100% {background:#324663}
+    
+}
